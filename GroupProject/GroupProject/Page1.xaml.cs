@@ -16,5 +16,15 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+
+        private void yellOption_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page2());
+        }
+
+        private void throwOption_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page2());
+        }
     }
 }
