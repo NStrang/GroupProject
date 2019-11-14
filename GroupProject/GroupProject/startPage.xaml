@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GroupProject.startPage"
+             BackgroundColor="Black">
+
+    <StackLayout Margin="15"
+                 Spacing="20"                 
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+
+        <Label Text="Ignorance is Bliss"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand"
+               TextColor="Crimson"
+               FontSize="72"/>
+        <Label Text="Story 1"
+               FontSize="84"
+               TextColor="White"
+               FontFamily="Arial"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="startButton"
+                Text="Start Game"
+                FontSize="42"
+                BackgroundColor="LightGray"
+                TextColor="White"
+                Clicked="startButton_Clicked"                
+                HorizontalOptions="Center"
+                CornerRadius="15">
+
+        </Button>
+    </StackLayout>
+
+</ContentPage>

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class airportPage : ContentPage
     {
-        public Page1()
+        public airportPage()
         {
             InitializeComponent();
         }
@@ -24,7 +24,7 @@ namespace GroupProject
 
         private void throwOption_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page2());
+            Navigation.PushAsync(new Page3());
         }
     }
 }
