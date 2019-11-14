@@ -5,18 +5,55 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.MainPage"
-             BackgroundColor="Black">
+             BackgroundColor="Gray">
 
-    <StackLayout Margin="15"
-                 Spacing="20"                 
-                 HorizontalOptions="FillAndExpand"
-                 VerticalOptions="FillAndExpand">
-        
-        <Label Text="Ignorance is Bliss"
+    <StackLayout>
+
+        <Frame
+            Margin="15"
+            BackgroundColor ="Black"
+            HasShadow="true">
+
+            <StackLayout>
+                <Label
+                    Text="Story 1"
+                    TextColor="Crimson"
+                    />
+                <Image Source="https://image.shutterstock.com/image-illustration/enigmatic-3d-illustration-crime-scene-260nw-749197507.jpg"
+                    WidthRequest="1000"/>
+
+                <Label 
+                    Text="Ignorance is Bliss"
+                    HorizontalOptions="Start"
+                    VerticalOptions="StartAndExpand"
+                    TextColor="Crimson"
+                    FontSize="40"/>
+
+                <Label
+                    Text="Horror/Crime"
+                    HorizontalOptions="Start"
+                    VerticalOptions="CenterAndExpand"
+                    TextColor="Crimson"
+                    FontSize="20"
+                    FontAttributes="Italic"/>
+            </StackLayout>
+
+
+        </Frame>
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <Frame>
+            <StackLayout>
+                <Label 
+               Text="Ignorance is Bliss"
                HorizontalOptions="Center"
                VerticalOptions="StartAndExpand"
                TextColor="Crimson"
-               FontSize="72"/>
+               FontSize="50"/>
+
+            </StackLayout>
+
+        </Frame>
+
         <Label Text="Story 1"
                FontSize="84"
                TextColor="White"
@@ -33,6 +70,8 @@
                 >
             
         </Button>
+            
+        
     </StackLayout>
 
 </ContentPage>
