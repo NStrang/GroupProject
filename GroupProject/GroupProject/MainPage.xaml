@@ -17,6 +17,8 @@
             <StackLayout>
                 <Label
                     Text="Story 1"
+                    FontSize="20"
+                    VerticalTextAlignment="Start"
                     TextColor="Crimson"
                     />
                 <Image Source="https://image.shutterstock.com/image-illustration/enigmatic-3d-illustration-crime-scene-260nw-749197507.jpg"
@@ -36,41 +38,42 @@
                     TextColor="Crimson"
                     FontSize="20"
                     FontAttributes="Italic"/>
-            </StackLayout>
 
+                <Button x:Name="startButton"
+                Text="Start Game"
+                FontSize="42"
+                BackgroundColor="Crimson"
+                TextColor="White"
+                CornerRadius="20"
+                Clicked="startButton_Clicked"                
+                HorizontalOptions="Center">
+
+                </Button>
+            </StackLayout>
 
         </Frame>
 <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
-        <Frame>
+        <Frame
+            Margin="15"
+            BackgroundColor ="Black"
+            HasShadow="true">
+
+
             <StackLayout>
                 <Label 
-               Text="Ignorance is Bliss"
-               HorizontalOptions="Center"
-               VerticalOptions="StartAndExpand"
+               Text="Story 2"
+               HorizontalOptions="Start"
                TextColor="Crimson"
-               FontSize="50"/>
+               FontSize="20"/>
 
+                <Label
+                    Text="Coming Soon"
+                    FontSize="42"
+                    TextColor="Crimson"
+                    HorizontalOptions="Center"/>
             </StackLayout>
-
         </Frame>
 
-        <Label Text="Story 1"
-               FontSize="84"
-               TextColor="White"
-               FontFamily="Arial"
-               VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand"/>
-        <Button x:Name="startButton"
-                Text="Start Game"
-                FontSize="42"
-                BackgroundColor="LightGray"
-                TextColor="White"
-                Clicked="startButton_Clicked"                
-                HorizontalOptions="Center"
-                >
-            
-        </Button>
-            
         
     </StackLayout>
 
