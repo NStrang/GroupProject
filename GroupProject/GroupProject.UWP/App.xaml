@@ -4,5 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:GroupProject.UWP"
     RequestedTheme="Light">
-
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="SystemControlHighlightBaseMediumLowBrush" Color="Red" />
+                    <SolidColorBrush x:Key="SystemControlHighlightBaseHighBrush" Color="White" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
