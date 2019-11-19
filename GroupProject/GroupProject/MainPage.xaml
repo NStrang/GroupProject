@@ -5,12 +5,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.MainPage"
-             BackgroundColor="Gray">
+             BackgroundImageSource="handprintwall.jpg">
 
     <StackLayout>
 
         <Frame
-            Margin="15"
+            Margin="40"
             BackgroundColor ="Black"
             HasShadow="true">
 
@@ -21,7 +21,7 @@
                     VerticalTextAlignment="Start"
                     TextColor="Crimson"
                     />
-                <Image Source="https://image.shutterstock.com/image-illustration/enigmatic-3d-illustration-crime-scene-260nw-749197507.jpg"
+                <Image Source="crimepicture.png"
                     WidthRequest="1000"/>
 
                 <Label 
