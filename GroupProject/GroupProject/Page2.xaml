@@ -5,12 +5,39 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.Page2"
-             BackgroundColor="Black">
+             BackgroundColor="Gray">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Insert Text Here"
+        <ScrollView>
+        <StackLayout
+              Margin="15"
+              Spacing="20"
+              BackgroundColor="Black"
+              Padding="15">
+            <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. 
+                   &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot;
+                   &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    TextColor="White"
-                   />
-        </StackLayout>
+                   FontSize="24"/>
+                <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Spacing="50">
+                    <Button x:Name="talkOption"
+                        TextColor="White"
+                        FontSize="36"
+                        BackgroundColor="Gray"
+                        Text="Say Something"
+                        Clicked="TalkOption_Clicked"
+                        CornerRadius="15"/>
+                    <Button x:Name="doNothingOption"
+                    TextColor="White"
+                    FontSize="36"
+                    BackgroundColor="Gray"
+                    Text="Do Nothing"
+                    Clicked="DoNothingOption_Clicked"
+                    CornerRadius="15"/>
+                </StackLayout>
+            </StackLayout>
+        
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

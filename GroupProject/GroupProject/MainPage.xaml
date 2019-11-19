@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="GroupProject.MainPage"
              BackgroundColor="Gray">
-
+    <ScrollView>
     <StackLayout>
 
         <Frame
@@ -76,5 +76,5 @@
 
         
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>

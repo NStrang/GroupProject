@@ -16,5 +16,15 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+
+        private void AskAboutDeploymentOption_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DoNothingOption_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

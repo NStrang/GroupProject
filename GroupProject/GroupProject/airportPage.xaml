@@ -5,48 +5,43 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.airportPage"
-             BackgroundColor="Black">
+             BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
         <StackLayout 
-                     Margin="15"
-                     Spacing="20">
-            <Label Text="After 6 long months of waiting for this day, your brother, Hector Pena, is finally coming home from his deployment in Syria. Just the thought of him coming home puts a smile on your face. As you wait, you sit and remember all the good times you had with him before he enlisted with the Army. A loud intercom snaps you back to reality, &quot;Flight 29 has arrived. Please stand back to allow the passengers to exit the plane. &quot;Overjoyed, you hurry towards the people scrambling to get out of the entrance and find Hector."
+              Margin="15"
+              Spacing="20"
+              BackgroundColor="Black"
+              Padding="15">
+            <Label Text="After 6 long months of waiting for this day, your brother, Hector Pena, is finally coming home from his deployment in Syria.
+                   Just the thought of him coming home puts a smile on your face. As you wait, you sit and remember all the good times you had with him before he enlisted with the Army. A loud intercom snaps you back to reality,&quot; 
+                   Flight 29 has arrived. Please stand back to allow the passengers to exit the plane.&quot; Overjoyed, you hurry towards the people scrambling to get out of the entrance and find Hector."
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="CenterAndExpand"
                     TextColor="White"
-                    FontSize="24"/>
+                    FontSize="24"
+                    />
             
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Spacing="50">
                 <Button x:Name="yellOption"
-                        TextColor="LightGray"
+                        TextColor="White"
                         FontSize="36"
-                        BackgroundColor="White"
-                        Text="Option 1"
+                        BackgroundColor="Gray"
+                        Text="Yell to Hector"
                         Clicked="yellOption_Clicked"
                         CornerRadius="15"/>
                 <Button x:Name="throwOption"
-                    TextColor="LightGray"
+                    TextColor="White"
                     FontSize="36"
-                    BackgroundColor="White"
-                    Text="Option 2"
+                    BackgroundColor="Gray"
+                    Text="Throw your thermos"
                     Clicked="throwOption_Clicked"
-                    CornerRadius="15"/>
+                    CornerRadius="15"
+                    />
             </StackLayout>
-            <StackLayout Orientation="Horizontal"
-                         HorizontalOptions="FillAndExpand"
-                         Margin="15">
-                <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot;"
-                       FontSize="18"
-                       TextColor="White"/>
-                <Label Text="You launch your thermos at Hector's head. &quot;Awwoo! Who did that!?&quot; Hector scans the area and sees you laughing. &quot;It's nice to see you too, fucker. I see you haven't changed,&quot; rubbing his head. &quot;Man, you look tired. You got jet lag or somethin'?&quot;"
-                       FontSize="18"
-                       TextColor="White"/>
-
-
-            </StackLayout>
+            
         </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -5,13 +5,17 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.startPage"
-             BackgroundColor="Black">
-
-    <StackLayout Margin="15"
+             BackgroundColor="Gray">
+    <Frame
+        BackgroundColor="Black"
+        CornerRadius="15"
+        Margin="15">
+        <StackLayout 
                  Spacing="20"                 
                  HorizontalOptions="FillAndExpand"
-                 VerticalOptions="FillAndExpand">
-
+                 VerticalOptions="FillAndExpand"
+                 Padding="15">
+        
         <Label Text="Ignorance is Bliss"
                HorizontalOptions="Center"
                VerticalOptions="StartAndExpand"
@@ -23,16 +27,18 @@
                FontFamily="Arial"
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="CenterAndExpand"/>
+            
         <Button x:Name="startButton"
                 Text="Start Game"
                 FontSize="42"
-                BackgroundColor="LightGray"
+                BackgroundColor="Gray"
                 TextColor="White"
                 Clicked="startButton_Clicked"                
                 HorizontalOptions="Center"
                 CornerRadius="15">
 
         </Button>
-    </StackLayout>
 
+    </StackLayout>
+    </Frame>
 </ContentPage>
