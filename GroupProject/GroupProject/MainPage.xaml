@@ -52,7 +52,7 @@
             </StackLayout>
 
         </Frame>
-<!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+        <!--XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
         <Frame
             Margin="15"
             BackgroundColor ="Black"
@@ -74,7 +74,6 @@
             </StackLayout>
         </Frame>
 
-        
+
     </StackLayout>
-    </ScrollView>
 </ContentPage>
