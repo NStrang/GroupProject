@@ -16,5 +16,15 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+
+        private void TalkOption_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page4());
+        }
+
+        private void DoNothingOption_Clicked(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

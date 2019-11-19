@@ -76,5 +76,5 @@
 
         
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>
