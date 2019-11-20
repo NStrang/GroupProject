@@ -5,33 +5,46 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.startPage"
-             BackgroundColor="Gray">
+             BackgroundImageSource="gunandhelmet.jpg">
     <Frame
         BackgroundColor="Black"
         CornerRadius="15"
-        Margin="15">
-        <StackLayout 
-                 Spacing="20"                 
-                 HorizontalOptions="FillAndExpand"
-                 VerticalOptions="FillAndExpand"
-                 Padding="15">
-        
-        <Label Text="Ignorance is Bliss"
+        Margin="35">
+
+
+
+
+        <StackLayout>
+
+
+            <Label Text="Ignorance is Bliss"
                HorizontalOptions="Center"
-               VerticalOptions="StartAndExpand"
-               TextColor="Crimson"
-               FontSize="72"/>
-        <Label Text="Story 1"
-               FontSize="84"
+               VerticalOptions="Start"
+               TextColor="Red"
+               FontSize="55"/>
+
+            <Image Source="gunandhelmet.jpg"
+                   Margin="1,0,1,0"
+                   Aspect="AspectFill"
+                   BackgroundColor="Red"
+                   HorizontalOptions="Fill"
+                   HeightRequest="300"/>
+
+
+            <Label Text="Story 1"
+                   
+                   FontAttributes="Italic"
+                   
+               FontSize="30"
                TextColor="White"
                FontFamily="Arial"
                VerticalOptions="CenterAndExpand"
-               HorizontalOptions="CenterAndExpand"/>
+               HorizontalOptions="StartAndExpand"/>
             
         <Button x:Name="startButton"
                 Text="Start Game"
                 FontSize="42"
-                BackgroundColor="Gray"
+                BackgroundColor="Red"
                 TextColor="White"
                 Clicked="startButton_Clicked"                
                 HorizontalOptions="Center"

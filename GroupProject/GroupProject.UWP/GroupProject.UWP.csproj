@@ -132,6 +132,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="bloodwall.jpg" />
     <Content Include="crimepicture.png" />
+    <Content Include="GunAndHelmet.jpg" />
     <Content Include="handprintwall.jpg" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>

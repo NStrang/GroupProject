@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupProject.Android", "Gro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupProject.iOS", "GroupProject\GroupProject.iOS\GroupProject.iOS.csproj", "{5A6D10CE-9354-4770-88AA-6901C7BC4ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupProject", "GroupProject\GroupProject\GroupProject.csproj", "{B5974634-74DC-48FF-936F-47C3FE789365}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GroupProject", "GroupProject\GroupProject\GroupProject.csproj", "{B5974634-74DC-48FF-936F-47C3FE789365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B675A591-FC45-4DD4-9BCF-0EAF3D58DD59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
