@@ -12,7 +12,7 @@
         <Frame
             Margin="35"
             BackgroundColor ="Black"
-            CornerRadius="15"
+            CornerRadius="10"
             HasShadow="true">
 
             <StackLayout>
@@ -49,13 +49,13 @@
                              Aspect="AspectFill"/>
 
 
-                <Button x:Name="startButton"
-                Text="Start Game"
+                <Button x:Name="playButton"
+                Text="Play Story"
                 FontSize="42"
                 BackgroundColor="Red"
                 TextColor="White"
-                CornerRadius="20"
-                Clicked="startButton_Clicked"                
+                CornerRadius="10"
+                Clicked="playButton_Clicked"                
                 HorizontalOptions="Center">
 
                 </Button>
@@ -66,7 +66,7 @@
         <Frame
             Margin="35"
             BackgroundColor ="Black"
-            CornerRadius="15"
+            CornerRadius="10"
             HasShadow="true">
 
 

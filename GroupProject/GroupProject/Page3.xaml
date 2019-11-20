@@ -13,9 +13,7 @@
               Spacing="20"
               BackgroundColor="Black"
               Padding="15">
-            <Label Text="You launch your thermos at Hector's head. &quot;Awwoo! Who did that!?&quot; Hector scans the area and sees you laughing.
-                   &quot;It's nice to see you too, fucker. I see you haven't changed,&quot; rubbing his head. &quot;Man, you look tired. You got jet lag or somethin'?&quot;
-                   &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
+            <Label Text="You launch your thermos at Hector's head. &quot;Awwoo! Who did that!?&quot; Hector scans the area and sees you laughing. &quot;It's nice to see you too, fucker. I see you haven't changed,&quot; rubbing his head. &quot;Man, you look tired. You got jet lag or somethin'?&quot; quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand"
                    TextColor="White"

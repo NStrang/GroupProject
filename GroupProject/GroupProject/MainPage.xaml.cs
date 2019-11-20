@@ -18,7 +18,7 @@ namespace GroupProject
             InitializeComponent();
         }
 
-        private void startButton_Clicked(object sender, EventArgs e)
+        private void playButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new startPage());
         }

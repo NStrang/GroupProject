@@ -13,9 +13,7 @@
               Spacing="20"
               BackgroundColor="Black"
               Padding="15">
-            <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. 
-                   &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot;
-                   &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
+            <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    TextColor="White"
                    FontSize="24"/>
                 <StackLayout Orientation="Horizontal"
@@ -34,7 +32,7 @@
                     BackgroundColor="Gray"
                     Text="Do Nothing"
                     Clicked="DoNothingOption_Clicked"
-                    CornerRadius="15"/>
+                    CornerRadius="10"/>
                 </StackLayout>
             </StackLayout>
         

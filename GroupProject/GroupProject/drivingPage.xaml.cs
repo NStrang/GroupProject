@@ -10,21 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page3 : ContentPage
+    public partial class drivingPage : ContentPage
     {
-        public Page3()
+        public drivingPage()
         {
             InitializeComponent();
-        }
-
-        private void AskAboutDeploymentOption_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new Page4());
-        }
-
-        private void DoNothingOption_Clicked(object sender, EventArgs e)
-        {
-
         }
     }
 }

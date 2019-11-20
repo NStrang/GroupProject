@@ -4,8 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GroupProject.Page4"
-             BackgroundColor="Gray">
+             x:Class="GroupProject.drivingPage">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout
@@ -13,7 +12,7 @@
               Spacing="20"
               BackgroundColor="Black"
               Padding="15">
-                <Label Text=""
+                <Label Text="A few hours pass by. Hector had fallen asleep and your stuck staring at a road that seems to never end."
                    TextColor="White"
                    FontSize="24"/>
                 <StackLayout Orientation="Horizontal"
@@ -23,14 +22,14 @@
                         TextColor="White"
                         FontSize="36"
                         BackgroundColor="Gray"
-                        Text=""
+                        Text="Say Something"
                         Clicked="TalkOption_Clicked"
                         CornerRadius="15"/>
                     <Button x:Name="doNothingOption"
                     TextColor="White"
                     FontSize="36"
                     BackgroundColor="Gray"
-                    Text=""
+                    Text="Do Nothing"
                     Clicked="DoNothingOption_Clicked"
                     CornerRadius="10"/>
                 </StackLayout>
