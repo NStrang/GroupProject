@@ -8,32 +8,34 @@
              BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout
-              Margin="15"
-              Spacing="20"
-              BackgroundColor="Black"
-              Padding="15">
-                <Label Text="&quot;So, how was Syria? You have to have some good stories to tell.&quot;  &quot;Don't ever bring that up again!&quot; yelled Hector. 
+            <Frame
+                Margin="35"
+                BackgroundColor ="Black"
+                CornerRadius="10"
+                HasShadow="true">
+
+                <StackLayout>
+                    <Label Text="&quot;So, how was Syria? You have to have some good stories to tell.&quot;  &quot;Don't ever bring that up again!&quot; yelled Hector. 
                        You look at him with a puzzled face. Wondering why he yelled over one question. &quot;I just wanted to know since you've been gone for almost a year. 
                        &quot; &quot;Ya well, don't worry about it.&quot; Dead silence filled the car. You focus on driving to not think about what just happened.
 "
                    TextColor="White"
                    FontSize="24"/>
-                <StackLayout Orientation="Horizontal"
+                    <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Spacing="50">
-                    
-                    <Button x:Name="Storyline1"
+
+                        <Button x:Name="Storyline1"
                         TextColor="White"
                         FontSize="36"
                         BackgroundColor="Gray"
                         Text="Continue On"
                         Clicked="Storyline1_Clicked"
                         CornerRadius="15"/>
-                    
-                </StackLayout>
-            </StackLayout>
 
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

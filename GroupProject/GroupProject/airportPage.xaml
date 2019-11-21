@@ -8,12 +8,15 @@
              BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout 
-              Margin="15"
-              Spacing="20"
-              BackgroundColor="Black"
-              Padding="15">
-            <Label Text="After 6 long months of waiting for this day, your brother, Hector Pena, is finally coming home from his deployment in Syria. Just the thought of him coming home puts a smile on your face. As you wait, you sit and remember all the good times you had with him before he enlisted with the Army. A loud intercom snaps you back to reality,&quot; 
+            <Frame
+                Margin="35"
+            BackgroundColor ="Black"
+            CornerRadius="10"
+            HasShadow="true">
+
+                <StackLayout>
+
+                    <Label Text="After 6 long months of waiting for this day, your brother, Hector Pena, is finally coming home from his deployment in Syria. Just the thought of him coming home puts a smile on your face. As you wait, you sit and remember all the good times you had with him before he enlisted with the Army. A loud intercom snaps you back to reality,&quot; 
                    Flight 29 has arrived. Please stand back to allow the passengers to exit the plane.&quot; Overjoyed, you hurry towards the people scrambling to get out of the entrance and find Hector."
                     VerticalOptions="StartAndExpand" 
                     HorizontalOptions="CenterAndExpand"
@@ -27,21 +30,23 @@
                 <Button x:Name="yellOption"
                         TextColor="White"
                         FontSize="36"
-                        BackgroundColor="Gray"
+                        BackgroundColor="Red"
                         Text="Yell to Hector"
                         Clicked="yellOption_Clicked"
                         CornerRadius="15"/>
-                
+            </StackLayout>
+
                 <Button x:Name="throwOption"
                     TextColor="White"
                     FontSize="36"
-                    BackgroundColor="Gray"
+                    BackgroundColor="Red"
                     Text="Throw your thermos"
                     Clicked="throwOption_Clicked"
                     CornerRadius="15"/>
+
             </StackLayout>
-            
-        </StackLayout>
+
+            </Frame>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

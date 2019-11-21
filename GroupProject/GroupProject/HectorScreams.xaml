@@ -10,14 +10,14 @@
     
     <ContentPage.Content>
         <ScrollView>
-            
-            <StackLayout
-              Margin="15"
-              Spacing="20"
-              BackgroundColor="Black"
-              Padding="15">
+            <Frame
+                Margin="35"
+            BackgroundColor ="Black"
+            CornerRadius="10"
+            HasShadow="true">
 
-                <Label Text="A few hours pass by. Hector had fallen asleep and your stuck staring at a road that seems to never end."
+                <StackLayout>
+                    <Label Text="A few hours pass by. Hector had fallen asleep and your stuck staring at a road that seems to never end."
                    TextColor="White"
                    FontSize="24"/>
 
@@ -29,7 +29,7 @@
                        FontSize="24"/>
 
             </StackLayout>
-
+            </Frame>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

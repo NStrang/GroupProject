@@ -8,45 +8,47 @@
              BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout
-              Margin="15"
-              Spacing="20"
-              BackgroundColor="Black"
-              Padding="15">
-            <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. 
+            <Frame
+                Margin="35"
+                BackgroundColor ="Black"
+                CornerRadius="10"
+                HasShadow="true">
+
+                <StackLayout>
+                    <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. 
                    &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    TextColor="White"
                    FontSize="24"/>
 
-            <Label Text="As we were driving everything was too quiet. Hector hasn't spoken a word."
+                    <Label Text="As we were driving everything was too quiet. Hector hasn't spoken a word."
                    TextColor="White"
                    FontSize="24"/>
-            
-                <StackLayout Orientation="Horizontal"
+
+                    <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Spacing="50">
-                    
-                    <Button x:Name="TalkOption"
+
+                        <Button x:Name="TalkOption"
                         TextColor="White"
                         FontSize="36"
-                        BackgroundColor="Gray"
+                        BackgroundColor="Red"
                         Text="Ask about Deployment"
                         Clicked="TalkOption_Clicked"
                         CornerRadius="15"/>
-                    
 
-                </StackLayout>
 
-                <Button x:Name="DoNothingOption"
+                    </StackLayout>
+
+                    <Button x:Name="DoNothingOption"
                     TextColor="White"
                     FontSize="36"
-                    BackgroundColor="Gray"
+                    BackgroundColor="Red"
                     Text="Say Nothing"
                     Clicked="DoNothingOption_Clicked"
                     CornerRadius="10"/>
 
-            </StackLayout>
-        
+                </StackLayout>
+            </Frame>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
