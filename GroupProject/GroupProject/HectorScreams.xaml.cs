@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class drivingPage : ContentPage
+    public partial class HectorScreams : ContentPage
     {
-        public drivingPage()
+        public HectorScreams()
         {
             InitializeComponent();
         }

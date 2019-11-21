@@ -24,7 +24,7 @@
     <EmbeddedResource Update="airportPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="drivingPage.xaml">
+    <EmbeddedResource Update="HectorScreams.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Page2.xaml">

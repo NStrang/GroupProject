@@ -13,24 +13,32 @@
               Spacing="20"
               BackgroundColor="Black"
               Padding="15">
-            <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
+            <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. 
+                   &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    TextColor="White"
                    FontSize="24"/>
+
+            <Label Text="As we were driving everything was too quiet. Hector hasn't spoken a word."
+                   TextColor="White"
+                   FontSize="24"/>
+            
                 <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Spacing="50">
-                    <Button x:Name="talkOption"
+                    
+                    <Button x:Name="TalkOption"
                         TextColor="White"
                         FontSize="36"
                         BackgroundColor="Gray"
-                        Text="Say Something"
+                        Text="Ask how was his Deployment"
                         Clicked="TalkOption_Clicked"
                         CornerRadius="15"/>
-                    <Button x:Name="doNothingOption"
+                    
+                    <Button x:Name="DoNothingOption"
                     TextColor="White"
                     FontSize="36"
                     BackgroundColor="Gray"
-                    Text="Do Nothing"
+                    Text="Say Nothing"
                     Clicked="DoNothingOption_Clicked"
                     CornerRadius="10"/>
                 </StackLayout>
