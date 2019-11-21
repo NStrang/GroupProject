@@ -31,14 +31,14 @@
                         Text="Yell to Hector"
                         Clicked="yellOption_Clicked"
                         CornerRadius="15"/>
+                
                 <Button x:Name="throwOption"
                     TextColor="White"
                     FontSize="36"
                     BackgroundColor="Gray"
                     Text="Throw your thermos"
                     Clicked="throwOption_Clicked"
-                    CornerRadius="15"
-                    />
+                    CornerRadius="15"/>
             </StackLayout>
             
         </StackLayout>

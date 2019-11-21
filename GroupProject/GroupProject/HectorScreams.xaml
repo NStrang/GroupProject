@@ -4,12 +4,32 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GroupProject.HectorScreams">
+             x:Class="GroupProject.HectorScreams"
+             BackgroundColor="Gray">
+    
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            
+            <StackLayout
+              Margin="15"
+              Spacing="20"
+              BackgroundColor="Black"
+              Padding="15">
+
+                <Label Text="A few hours pass by. Hector had fallen asleep and your stuck staring at a road that seems to never end."
+                   TextColor="White"
+                   FontSize="24"/>
+
+                <Label Text="Your snapped out of your day dreaming when you hear a loud scream. 
+                       Turning to Hector, you see him frantically moving to get out of his seat but the seatbelt holds him in place. 
+                       &quot;HECTOR! Calm down! Why are you screaming?&quot; He turns and looks at you with a wide eyed stare and says, 
+                       &quot;Just keep driving.&quot; Not bothering to even ask again why he woke up in a frantic panic, silence once again enters the car."
+                       TextColor="White"
+                       FontSize="24"/>
+
+            </StackLayout>
+
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

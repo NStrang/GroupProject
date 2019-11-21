@@ -30,18 +30,21 @@
                         TextColor="White"
                         FontSize="36"
                         BackgroundColor="Gray"
-                        Text="Ask how was his Deployment"
+                        Text="Ask about Deployment"
                         Clicked="TalkOption_Clicked"
                         CornerRadius="15"/>
                     
-                    <Button x:Name="DoNothingOption"
+
+                </StackLayout>
+
+                <Button x:Name="DoNothingOption"
                     TextColor="White"
                     FontSize="36"
                     BackgroundColor="Gray"
                     Text="Say Nothing"
                     Clicked="DoNothingOption_Clicked"
                     CornerRadius="10"/>
-                </StackLayout>
+
             </StackLayout>
         
         </ScrollView>

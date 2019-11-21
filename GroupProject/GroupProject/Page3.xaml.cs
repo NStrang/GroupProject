@@ -24,6 +24,7 @@ namespace GroupProject
 
         private void DoNothingOption_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new HectorScreams());
 
         }
     }
