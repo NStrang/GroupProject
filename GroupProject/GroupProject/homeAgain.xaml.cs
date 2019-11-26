@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HectorScreams : ContentPage
+    public partial class homeAgain : ContentPage
     {
-        public HectorScreams()
+        public homeAgain()
         {
             InitializeComponent();
-        }
-
-        private void GoingHome_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new homeAgain());
         }
     }
 }

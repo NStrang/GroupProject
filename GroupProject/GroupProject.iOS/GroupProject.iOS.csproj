@@ -130,4 +130,7 @@
       <Name>GroupProject</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\rundown_home.jpg" />
+  </ItemGroup>
 </Project>

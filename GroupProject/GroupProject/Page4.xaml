@@ -15,12 +15,10 @@
                 HasShadow="true">
 
                 <StackLayout>
-                    <Label Text="&quot;So, how was Syria? You have to have some good stories to tell.&quot;  &quot;Don't ever bring that up again!&quot; yelled Hector. 
-                       You look at him with a puzzled face. Wondering why he yelled over one question. &quot;I just wanted to know since you've been gone for almost a year. 
-                       &quot; &quot;Ya well, don't worry about it.&quot; Dead silence filled the car. You focus on driving to not think about what just happened.
-"
-                   TextColor="White"
-                   FontSize="24"/>
+                    <Label Text="&quot;So, how was Syria? You have to have some good stories to tell.&quot;  &quot;Don't ever bring that up again!&quot; yelled Hector. You look at him with a puzzled face. Wondering why he yelled over one question. &quot;I just wanted to know since you've been gone for almost a year.&quot; &quot;Don't worry about it.&quot; Dead silence filled the car. You focus on driving to not think about what just happened."
+                    VerticalOptions="StartAndExpand"
+                    TextColor="White"
+                    FontSize="24"/>
                     <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center"
                          Spacing="50">
@@ -28,7 +26,7 @@
                         <Button x:Name="Storyline1"
                         TextColor="White"
                         FontSize="36"
-                        BackgroundColor="Gray"
+                        BackgroundColor="Red"
                         Text="Continue On"
                         Clicked="Storyline1_Clicked"
                         CornerRadius="15"/>

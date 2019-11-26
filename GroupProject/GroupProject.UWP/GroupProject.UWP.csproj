@@ -135,6 +135,7 @@
     <Content Include="GunAndHelmet.jpg" />
     <Content Include="handprintwall.jpg" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="rundown_home.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

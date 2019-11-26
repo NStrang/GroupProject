@@ -11,24 +11,29 @@
     <ContentPage.Content>
         <ScrollView>
             <Frame
-                Margin="35"
+            Margin="35"
             BackgroundColor ="Black"
             CornerRadius="10"
             HasShadow="true">
 
                 <StackLayout>
-                    <Label Text="A few hours pass by. Hector had fallen asleep and your stuck staring at a road that seems to never end."
-                   TextColor="White"
-                   FontSize="24"/>
+                    <Label Text="A few hours pass by. Hector had fallen asleep and you're stuck staring at a road that seems to never end."
+                    VerticalOptions="StartAndExpand"                   
+                    TextColor="White"
+                    FontSize="24"/>
 
-                <Label Text="Your snapped out of your day dreaming when you hear a loud scream. 
-                       Turning to Hector, you see him frantically moving to get out of his seat but the seatbelt holds him in place. 
-                       &quot;HECTOR! Calm down! Why are you screaming?&quot; He turns and looks at you with a wide eyed stare and says, 
-                       &quot;Just keep driving.&quot; Not bothering to even ask again why he woke up in a frantic panic, silence once again enters the car."
+                <Label Text="You are snapped out of your day dreaming when you hear a loud scream. Turning to Hector, you see him frantically clawing the seatbelt, but the buckle will not budge. &quot;HECTOR! Calm down! Why are you screaming?&quot; He turns to you in a daze and simply says, &quot;Just keep driving.&quot; Not willing to risk asking why he woke up in a panic, silence fills the car."
                        TextColor="White"
                        FontSize="24"/>
-
-            </StackLayout>
+                    <Button 
+                        x:Name="goingHome"
+                        TextColor="White"
+                        FontSize="36"
+                        BackgroundColor="Red"
+                        Text="Continue"
+                        Clicked="GoingHome_Clicked"
+                        CornerRadius="15"/>
+                </StackLayout>
             </Frame>
         </ScrollView>
     </ContentPage.Content>
