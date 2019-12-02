@@ -4,35 +4,44 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GroupProject.Page2"
+             x:Class="GroupProject.reunitedPage"
              BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
             <Grid
                 Margin="20"
+                BackgroundColor="Black"
                 >
 
 
                 <Grid.RowDefinitions >
-                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions >
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
+                
+                    <Label
+                        Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                        Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                     TextColor="White"
                     FontSize="24"
                     VerticalOptions="StartAndExpand"/>
 
-                    <Label Text="As you drive things are too quiet. Hector hasn't spoken a word."
+                    <Label 
+                        Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        Text="As you drive things are too quiet. Hector hasn't spoken a word."
                    TextColor="White"
                    FontSize="24"/>
 
                     
 
-                        <Button x:Name="TalkOption"
+                        <Button
+                            Grid.Row="2" Grid.Column="0"
+                            x:Name="TalkOption"
                         TextColor="White"
                         FontSize="36"
                         BackgroundColor="Red"
@@ -43,7 +52,9 @@
 
                  
 
-                    <Button x:Name="DoNothingOption"
+                    <Button 
+                        Grid.Row="2" Grid.Column="1"
+                        x:Name="DoNothingOption"
                     TextColor="White"
                     FontSize="36"
                     BackgroundColor="Red"

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page3 : ContentPage
+    public partial class brothersPage : ContentPage
     {
-        public Page3()
+        public brothersPage()
         {
             InitializeComponent();
         }

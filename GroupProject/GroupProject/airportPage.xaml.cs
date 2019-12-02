@@ -16,7 +16,14 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
 
+            homeButton.FadeTo(1, 2500);
+            airportText.FadeTo(1, 2500);
+            
+        }
         private void yellOption_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new reunitedPage());
@@ -25,6 +32,11 @@ namespace GroupProject
         private void throwOption_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new brothersPage());
+        }
+
+        private void homeButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PopAsync();
         }
     }
 }

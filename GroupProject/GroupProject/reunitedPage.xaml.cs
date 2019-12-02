@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page2 : ContentPage
+    public partial class reunitedPage : ContentPage
     {
-        public Page2()
+        public reunitedPage()
         {
             InitializeComponent();
         }

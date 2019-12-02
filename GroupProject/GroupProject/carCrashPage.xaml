@@ -4,8 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GroupProject.carTalkPage"
-             BackgroundColor="Gray">
+             x:Class="GroupProject.carCrashPage">
     <ContentPage.Content>
         <ScrollView>
             <Grid
@@ -19,35 +18,27 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                    
 
-               
+
+
                 <Label
                     Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
-                    Text="&quot;So, how was Syria? You have to have some good stories to tell.&quot;  &quot;Don't ever bring that up again!&quot; yelled Hector. You look at him with a puzzled face. Wondering why he yelled over one question. &quot;I just wanted to know since you've been gone for almost a year.&quot; &quot;Don't worry about it.&quot; Dead silence filled the car. You focus on driving to not think about what just happened."
+                    Text="Dusk is falling as you travel down the highway and you slowly begin to nod off at the wheel without realizing it. As you begin to have an all too familiar dream about falling suddenly you are awoken by the blaring of a horn. You snap your eyes open just in time to see that you've drifted into oncoming traffic, and then the world goes dark."
                     VerticalOptions="StartAndExpand"
                     TextColor="White"
-                    FontSize="24"/>
-                
+                    FontSize="28"/>
 
-                    <Button
-                        Grid.Row="1" Grid.Column="0"
-                        x:Name="Storyline1"
-                        TextColor="White"
-                        FontSize="36"
-                        BackgroundColor="Red"
-                        Text="Continue On"
-                        Clicked="Storyline1_Clicked"
-                        CornerRadius="15"/>
+
                 <Button
-                        Grid.Row="1" Grid.Column="1"
-                        x:Name="Storyline2"
+                        Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        x:Name="youDied"
                         TextColor="White"
                         FontSize="36"
                         BackgroundColor="Red"
-                        Text="Continue On"
-                        Clicked="Storyline2_Clicked"
+                        Text="You Died"
+                        Clicked="youDied_Clicked"
                         CornerRadius="15"/>
+               
 
             </Grid>
         </ScrollView>

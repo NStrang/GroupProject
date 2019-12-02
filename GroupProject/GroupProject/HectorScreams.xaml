@@ -10,31 +10,50 @@
     
     <ContentPage.Content>
         <ScrollView>
-            <Frame
+            <Grid
             Margin="35"
             BackgroundColor ="Black"
-            CornerRadius="10"
-            HasShadow="true">
+            >
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-                <StackLayout>
-                    <Label Text="A few hours pass by. Hector had fallen asleep and you're stuck staring at a road that seems to never end."
+                <Label 
+                    Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                    Text="A few hours pass by. Hector had fallen asleep and you're stuck staring at a road that seems to never end."
                     VerticalOptions="StartAndExpand"                   
                     TextColor="White"
                     FontSize="24"/>
 
-                <Label Text="You are snapped out of your day dreaming when you hear a loud scream. Turning to Hector, you see him frantically clawing the seatbelt, but the buckle will not budge. &quot;HECTOR! Calm down! Why are you screaming?&quot; He turns to you in a daze and simply says, &quot;Just keep driving.&quot; Not willing to risk asking why he woke up in a panic, silence fills the car."
+                <Label 
+                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                    Text="You are snapped out of your day dreaming when you hear a loud scream. Turning to Hector, you see him frantically clawing the seatbelt, but the buckle will not budge. &quot;HECTOR! Calm down! Why are you screaming?&quot; He turns to you in a daze and simply says, &quot;Just keep driving.&quot; Not willing to risk asking why he woke up in a panic, silence fills the car."
                        TextColor="White"
                        FontSize="24"/>
-                    <Button 
+                <Button 
+                        Grid.Row="2" Grid.Column="0"
                         x:Name="goingHome"
                         TextColor="White"
-                        FontSize="36"
+                        FontSize="30"
                         BackgroundColor="Red"
                         Text="Continue"
                         Clicked="GoingHome_Clicked"
                         CornerRadius="15"/>
-                </StackLayout>
-            </Frame>
+                <Button 
+                    Grid.Row="2" Grid.Column="1"
+                Text="You Crash the Car"
+                TextColor="White"
+                BackgroundColor="Red"
+                FontSize="30"
+                CornerRadius="15"/>
+
+            </Grid>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>
