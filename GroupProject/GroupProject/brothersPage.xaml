@@ -8,14 +8,17 @@
              BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
-            <Frame
-                Margin="35"
-                BackgroundColor ="Black"
-                CornerRadius="10"
-                HasShadow="true">
-
-                <StackLayout>
-                    <Label Text="You launch your thermos at Hector's head. &quot;Awwoo! Who did that!?&quot; Hector scans the area and sees you laughing. &quot;It's nice to see you too, fucker. I see you haven't changed,&quot; rubbing his head. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot;Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
+            <Grid
+                Margin="20">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="You launch your thermos at Hector's head. &quot;Awwoo! Who did that!?&quot; Hector scans the area and sees you laughing. &quot;It's nice to see you too, fucker. I see you haven't changed,&quot; rubbing his head. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot;Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    VerticalOptions="StartAndExpand" 
                    HorizontalOptions="CenterAndExpand"
                    TextColor="White"
@@ -27,9 +30,7 @@
                    TextColor="White"
                    FontSize="24"/>
 
-                    <StackLayout Orientation="Horizontal"
-                         HorizontalOptions="Center"
-                         Spacing="50">
+                 
                         
                         <Button x:Name="askAboutDeploymentOption"
                         TextColor="White"
@@ -38,7 +39,7 @@
                         Text="Ask about deployment"
                         Clicked="AskAboutDeploymentOption_Clicked"
                         CornerRadius="15"/>
-                    </StackLayout>
+                    
 
                     <Button x:Name="doNothingOption"
                     TextColor="White"
@@ -47,9 +48,7 @@
                     Text="Do Nothing"
                     Clicked="DoNothingOption_Clicked"
                     CornerRadius="15"/>
-
-                </StackLayout>
-            </Frame>
+            </Grid>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

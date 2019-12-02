@@ -18,6 +18,15 @@
     <Compile Update="airportPage.xaml.cs">
       <DependentUpon>airportPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="brothersPage.xaml.cs">
+      <DependentUpon>brothersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="carTalkPage.xaml.cs">
+      <DependentUpon>carTalkPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="reunitedPage.xaml.cs">
+      <DependentUpon>reunitedPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -30,13 +39,13 @@
     <EmbeddedResource Update="homeAgain.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page2.xaml">
+    <EmbeddedResource Update="reunitedPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page3.xaml">
+    <EmbeddedResource Update="brothersPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Page4.xaml">
+    <EmbeddedResource Update="carTalkPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="startPage.xaml">

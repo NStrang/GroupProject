@@ -10,16 +10,22 @@ using Xamarin.Forms.Xaml;
 namespace GroupProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page4 : ContentPage
+    public partial class Page3 : ContentPage
     {
-        public Page4()
+        public Page3()
         {
             InitializeComponent();
         }
 
-        private void Storyline1_Clicked(object sender, EventArgs e)
+        private void AskAboutDeploymentOption_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new carTalkPage());
+        }
+
+        private void DoNothingOption_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new HectorScreams());
+
         }
     }
 }

@@ -22,5 +22,11 @@ namespace GroupProject
         {
             Navigation.PushAsync(new startPage());
         }
+
+
+        private void handprintButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new startPage());
+        }
     }
 }

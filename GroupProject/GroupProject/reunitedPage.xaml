@@ -8,13 +8,19 @@
              BackgroundColor="Gray">
     <ContentPage.Content>
         <ScrollView>
-            <Frame
-                Margin="35"
-                BackgroundColor ="Black"
-                CornerRadius="10"
-                HasShadow="true">
+            <Grid
+                Margin="20"
+                >
 
-                <StackLayout>
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
                     <Label Text="&quot;Hector! Over here!&quot; Hector turns and looks at you with a tired but happy grin. &quot;Baby brother, good to see you.&quot; As he walks over you notice the exhaustion in his eyes. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot; Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                     TextColor="White"
                     FontSize="24"
@@ -24,9 +30,7 @@
                    TextColor="White"
                    FontSize="24"/>
 
-                    <StackLayout Orientation="Horizontal"
-                         HorizontalOptions="Center"
-                         Spacing="50">
+                    
 
                         <Button x:Name="TalkOption"
                         TextColor="White"
@@ -37,7 +41,7 @@
                         CornerRadius="15"/>
 
 
-                    </StackLayout>
+                 
 
                     <Button x:Name="DoNothingOption"
                     TextColor="White"
@@ -47,8 +51,7 @@
                     Clicked="DoNothingOption_Clicked"
                     CornerRadius="15"/>
 
-                </StackLayout>
-            </Frame>
+            </Grid>
         </ScrollView>
     </ContentPage.Content>
 </ContentPage>

@@ -5,20 +5,44 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.homeAgain"
-             BackgroundColor="Gray" >
+             BackgroundImage="rundown_home.jpg" >
     <ContentPage.Content>
-        <Frame
-            BackgroundColor="Black"
-            Margin="35"
-            CornerRadius="10">
-        <StackLayout
+        <Grid
+                Margin="20"
             
-            
-            >
-            <Label Text="You and Hector arrive at your beat up old home."
+                >
+            <Grid.RowDefinitions >
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label
+                Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                BackgroundColor="Black"
+                TextColor="White"
+                FontSize="24"
+                Text="You and Hector arrive at your beat up old home."
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-        </Frame>
+            <Button
+                Grid.Row="1" Grid.Column="0"
+                x:Name="murderButton"
+                Text=""
+                TextColor="White"
+                BackgroundColor="Red"
+                FontSize="34"
+                CornerRadius="15"/>
+            <Button 
+                Grid.Row="1" Grid.Column="1"
+                x:Name="suicideButton"
+                Text=""
+                TextColor="White"
+                BackgroundColor="Red"
+                FontSize="34"
+                CornerRadius="15"/>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

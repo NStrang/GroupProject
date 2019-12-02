@@ -19,12 +19,12 @@ namespace GroupProject
 
         private void yellOption_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page2());
+            Navigation.PushAsync(new reunitedPage());
         }
 
         private void throwOption_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Page3());
+            Navigation.PushAsync(new brothersPage());
         }
     }
 }

@@ -40,13 +40,16 @@
                     FontSize="20"
                     FontAttributes="Italic"/>
                 
-                <ImageButton Source="handprintwall.jpg"
-                             Margin="50,0,50,0"
+                <ImageButton
+                            x:Name="handprintButton"
+                            Source="handprintwall.jpg"
+                             Margin="20,0,20,0"
                              VerticalOptions="CenterAndExpand"
                              HeightRequest="20"
                              WidthRequest="500"
                              BackgroundColor="Red"
-                             Aspect="AspectFill"/>
+                             Aspect="AspectFill"
+                             Clicked="handprintButton_Clicked"/>
 
 
                 <Button x:Name="playButton"
