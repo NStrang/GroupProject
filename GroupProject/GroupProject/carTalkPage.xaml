@@ -31,7 +31,7 @@
                 
 
                     <Button
-                        Grid.Row="1" Grid.Column="0"
+                        Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                         x:Name="Storyline1"
                         TextColor="White"
                         FontSize="36"
@@ -39,15 +39,7 @@
                         Text="Continue On"
                         Clicked="Storyline1_Clicked"
                         CornerRadius="15"/>
-                <Button
-                        Grid.Row="1" Grid.Column="1"
-                        x:Name="Storyline2"
-                        TextColor="White"
-                        FontSize="36"
-                        BackgroundColor="Red"
-                        Text="Continue On"
-                        Clicked="Storyline2_Clicked"
-                        CornerRadius="15"/>
+               
 
             </Grid>
         </ScrollView>
