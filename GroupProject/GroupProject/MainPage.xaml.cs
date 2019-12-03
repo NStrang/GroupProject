@@ -24,7 +24,8 @@ namespace GroupProject
         }
 
 
-        private void handprintButton_Clicked(object sender, EventArgs e)
+
+        private void CrimePictureButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new startPage());
         }

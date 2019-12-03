@@ -47,11 +47,13 @@
                         CornerRadius="15"/>
                 <Button 
                     Grid.Row="2" Grid.Column="1"
+                    x:Name="crashButton"
                 Text="You Crash the Car"
                 TextColor="White"
                 BackgroundColor="Red"
                 FontSize="30"
-                CornerRadius="15"/>
+                CornerRadius="15"
+                Clicked="crashButton_Clicked"/>
 
             </Grid>
         </ScrollView>
