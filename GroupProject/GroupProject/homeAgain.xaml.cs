@@ -16,5 +16,18 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+
+        private void suicideButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new suicidePage());
+        }
+
+        private void murderButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new murderPage());
+        }
+
+
+
     }
 }
