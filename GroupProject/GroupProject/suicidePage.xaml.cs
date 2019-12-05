@@ -16,5 +16,10 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+
+        private void BackToHome_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new startPage());
+        }
     }
 }
