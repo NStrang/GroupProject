@@ -27,7 +27,10 @@ namespace GroupProject
             Navigation.PushAsync(new murderPage());
         }
 
-
+        private void homeButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new startPage());
+        }
 
     }
 }

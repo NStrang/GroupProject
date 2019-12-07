@@ -133,4 +133,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\rundown_home.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\carCrashSound.wav" />
+  </ItemGroup>
 </Project>

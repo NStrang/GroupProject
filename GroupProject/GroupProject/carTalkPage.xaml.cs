@@ -19,12 +19,12 @@ namespace GroupProject
 
         private void Storyline1_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new HectorScreams());
+            Navigation.PushAsync(new homeAgain());
         }
 
-        private void Storyline2_Clicked(object sender, EventArgs e)
+        private void homeButton_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new startPage());
         }
     }
 }

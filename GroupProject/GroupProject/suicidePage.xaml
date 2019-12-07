@@ -12,6 +12,7 @@
         <ScrollView>
             <Grid Margin="25" BackgroundColor="Black">
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
                     <RowDefinition Height="5*" />
                     <RowDefinition Height="2*" />
                 </Grid.RowDefinitions>
@@ -19,26 +20,45 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+                <Button
+                    Grid.Row="0" Grid.Column="1"
+                    x:Name="homeButton"
+                    Text="Home"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="34"
+                    CornerRadius="15"
+                    Clicked="homeButton_Clicked"                
+                    HorizontalOptions="End"/>
 
 
 
                 <Label
+                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                     FontSize="24"
                     Margin="0"
-                    Text="Random Tedtjaosidgjoasidjf;"
+                    Text="You wake up feeling like the dead, stumbling through your morning routine but with a little scotch in your coffee because you have a feeling its going to be one of those days. As you walk outside you see an vast expanse of fog rolling before you. What a day. You decide to wander through the woods to get to town and look for your brother, as it is faster than the road. As you walk you notice something in a tree, upon closer investigation you are horrified to find that it's your best friend from high school who has hung himself."
                     TextColor="White"
                     VerticalOptions="StartAndExpand" />
 
 
                 <Button
-                    Grid.Row="1"
-                    Clicked="BackToHome_Clicked"
-                    Grid.Column="0"
-                    BackgroundColor="Red"
+                    Grid.Row="2" Grid.Column="0" 
+                    Clicked="BackToHome_Clicked"                    
+                    BackgroundColor="Crimson"
                     CornerRadius="15"
                     FontSize="36"
-                    Text="You Died"
+                    Text="Go home and call cops"
                     TextColor="White" />
+                <Button
+                    Grid.Row="2" Grid.Column="1"
+                    x:Name="policeButton"
+                    Clicked="policeButton_Clicked"
+                Text="Head to police station"
+                TextColor="White"
+                BackgroundColor="Crimson"
+                FontSize="34"
+                CornerRadius="15"/>
 
 
             </Grid>

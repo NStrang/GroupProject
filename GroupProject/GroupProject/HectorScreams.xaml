@@ -15,6 +15,7 @@
             BackgroundColor ="Black"
             >
                 <Grid.RowDefinitions >
+                    <RowDefinition Height="50"/>
                     <RowDefinition Height="2*"/>
                     <RowDefinition Height="5*"/>
                     <RowDefinition Height="2*"/>
@@ -24,33 +25,45 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
+                <Button
+                    Grid.Row="0" Grid.Column="1"
+                    x:Name="homeButton"
+                    Text="Home"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="34"
+                    CornerRadius="15"
+                    Clicked="homeButton_Clicked"                    
+                    HorizontalOptions="End"/>
+
+
                 <Label 
-                    Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                     Text="A few hours pass by. Hector had fallen asleep and you're stuck staring at a road that seems to never end."
                     VerticalOptions="StartAndExpand"                   
                     TextColor="White"
                     FontSize="24"/>
 
                 <Label 
-                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                    Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
                     Text="You are snapped out of your day dreaming when you hear a loud scream. Turning to Hector, you see him frantically clawing the seatbelt, but the buckle will not budge. &quot;HECTOR! Calm down! Why are you screaming?&quot; He turns to you in a daze and simply says, &quot;Just keep driving.&quot; Not willing to risk asking why he woke up in a panic, silence fills the car."
                        TextColor="White"
                        FontSize="24"/>
                 <Button 
-                        Grid.Row="2" Grid.Column="0"
+                        Grid.Row="3" Grid.Column="0"
                         x:Name="goingHome"
                         TextColor="White"
                         FontSize="30"
-                        BackgroundColor="Red"
+                        BackgroundColor="Crimson"
                         Text="Continue"
                         Clicked="GoingHome_Clicked"
                         CornerRadius="15"/>
                 <Button 
-                    Grid.Row="2" Grid.Column="1"
+                    Grid.Row="3" Grid.Column="1"
                     x:Name="crashButton"
                 Text="You Crash the Car"
                 TextColor="White"
-                BackgroundColor="Red"
+                BackgroundColor="Crimson"
                 FontSize="30"
                 CornerRadius="15"
                 Clicked="crashButton_Clicked"/>

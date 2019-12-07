@@ -26,5 +26,10 @@ namespace GroupProject
         {
             Navigation.PushAsync(new carCrashPage());
         }
+
+        private void homeButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new startPage());
+        }
     }
 }

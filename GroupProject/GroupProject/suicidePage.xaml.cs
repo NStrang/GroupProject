@@ -19,7 +19,18 @@ namespace GroupProject
 
         private void BackToHome_Clicked(object sender, EventArgs e)
         {
+            
+            
+        }
+
+        private void homeButton_Clicked(object sender, EventArgs e)
+        {
             Navigation.PushAsync(new startPage());
+        }
+
+        private void policeButton_Clicked(object sender, EventArgs e)
+        {
+
         }
     }
 }

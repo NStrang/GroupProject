@@ -103,6 +103,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="airportLobby.jpg" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
@@ -131,6 +132,7 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="bloodwall.jpg" />
+    <Content Include="carCrashSound.wav" />
     <Content Include="crimepicture.png" />
     <Content Include="GunAndHelmet.jpg" />
     <Content Include="handprintwall.jpg" />

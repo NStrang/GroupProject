@@ -5,12 +5,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="GroupProject.airportPage"
-             BackgroundColor="Gray">
+             BackgroundImageSource="airportLobby.jpg"
+             >
     <ContentPage.Content>
         <ScrollView>
             <Grid
-                Margin="20"
-                BackgroundColor="Black">
+                Margin="20"                >
                 <Grid.RowDefinitions >
                     <RowDefinition Height="50"/>
                     <RowDefinition Height="5*"/>
@@ -37,11 +37,12 @@
                     x:Name="airportText"
                     Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                     Text="After 6 long months of waiting for this day, your brother, Hector Pena, is finally coming home from his deployment in Syria. Just the thought of him coming home puts a smile on your face. As you wait, you sit and remember all the good times you had with him before he enlisted in the Army. A loud intercom snaps you back to reality, &quot;Flight 29 has arrived. Please stand back to allow the passengers to exit the plane.&quot; Overjoyed, you hurry towards the people scrambling to get out of the entrance and find Hector."
-                    VerticalOptions="StartAndExpand" 
-                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Center"
                     TextColor="White"
                     FontSize="24"
                     Opacity="0"
+                    BackgroundColor="Black"
                     />
             
            
@@ -49,7 +50,7 @@
                     x:Name="yellOption"
                         TextColor="White"
                         FontSize="34"
-                        BackgroundColor="Red"
+                        BackgroundColor="Crimson"
                         Text="Yell to Hector"
                         Clicked="yellOption_Clicked"
                         CornerRadius="15"
@@ -60,7 +61,7 @@
                     x:Name="throwOption"
                     TextColor="White"
                     FontSize="34"
-                    BackgroundColor="Silver"
+                    BackgroundColor="Crimson"
                     Text="Throw your thermos"
                     Clicked="throwOption_Clicked"
                     CornerRadius="15"

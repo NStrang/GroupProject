@@ -16,5 +16,10 @@ namespace GroupProject
         {
             InitializeComponent();
         }
+
+        private void homeButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new startPage());
+        }
     }
 }

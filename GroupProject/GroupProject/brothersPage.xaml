@@ -12,6 +12,7 @@
                 Margin="20"
                 BackgroundColor="Black">
                 <Grid.RowDefinitions >
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="4*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="2*"/>
@@ -20,8 +21,18 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
+                <Button
+                    Grid.Row="0" Grid.Column="1"
+                    x:Name="homeButton"
+                    Text="Home"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="34"
+                    CornerRadius="15"
+                    Clicked="homeButton_Clicked"                
+                    HorizontalOptions="End"/>
                 <Label
-                    Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
                    Text="You launch your thermos at Hector's head. &quot;Awwoo! Who did that!?&quot; Hector scans the area and sees you laughing. &quot;It's nice to see you too, fucker. I see you haven't changed,&quot; rubbing his head. &quot;Man, you look tired. You got jet lag or somethin'?&quot; &quot;Just need some sleep, where'd you park the car?&quot; Hector asks. &quot;It's not far, follow me&quot; you tell him, leading the way."
                    VerticalOptions="StartAndExpand" 
                    HorizontalOptions="CenterAndExpand"
@@ -29,7 +40,7 @@
                    FontSize="24"/>
 
                     <Label
-                        Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                        Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
                    Text="As you drive things are too quiet. Hector hasn't spoken a word."
                    VerticalOptions="CenterAndExpand" 
                    HorizontalOptions="CenterAndExpand"
@@ -39,7 +50,7 @@
                  
                         
                         <Button
-                            Grid.Row="2" Grid.Column="0"
+                            Grid.Row="3" Grid.Column="0"
                         x:Name="askAboutDeploymentOption"
                         TextColor="White"
                         FontSize="36"
@@ -50,7 +61,7 @@
                     
 
                     <Button
-                        Grid.Row="2" Grid.Column="1"
+                        Grid.Row="3" Grid.Column="1"
                         x:Name="doNothingOption"
                     TextColor="White"
                     FontSize="36"
