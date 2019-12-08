@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GroupProject.youCallPolice">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid
+                Margin="25"
+                BackgroundColor="Black">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button
+                    Grid.Row="0" Grid.Column="1"
+                    x:Name="homeButton"
+                    Text="Home"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="34"
+                    CornerRadius="15"
+                    Clicked="homeButton_Clicked"              
+                    HorizontalOptions="End"/>
+
+                <Label
+                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                    Text="You pull out your phone, and shakily dial 911, trying not to focus on the grotesque sight of your best friend dangling from a branch. The dispatcher picks up &quot;911, what's your emergency?&quot; You feel panicked and struggle to get the words out but manage to tell her &quot;Yeah, uhm.. I was walking in the woods and I found Arthur McNowly hanging in a tree can you please send someone over here? I think he hung himself man. Please you gotta help me.&quot; She replies &quot;What's your location sir? We are dispatching an officer to you now please stay where you are and wait for assistance&quot; her voice trails off, as you aren't really listening to her anymore. You're staring at Arthur's pallid face locked in a pained expression. He must have suffered so much."
+                    VerticalOptions="StartAndExpand"
+                    TextColor="White"
+                    FontSize="24"/>
+
+
+                <Button
+                        Grid.Row="2" Grid.Column="0"
+                        x:Name="clickForWin"
+                        TextColor="White"
+                        FontSize="32"
+                        BackgroundColor="Red"
+                        Text=""
+                        Clicked="clickForWin_Clicked"
+                        CornerRadius="15"/>
+                <Button
+                        Grid.Row="2" Grid.Column="1"
+                        x:Name="clickAndWin"
+                        TextColor="White"
+                        FontSize="32"
+                        BackgroundColor="Red"
+                        Text=""
+                        Clicked="clickForWin_Clicked"
+                        CornerRadius="15"/>
+
+            </Grid>
+        </ScrollView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

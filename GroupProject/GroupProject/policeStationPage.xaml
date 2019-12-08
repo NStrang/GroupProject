@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GroupProject.policeStationPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid
+                Margin="25"
+                BackgroundColor="Black">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button
+                    Grid.Row="0" Grid.Column="1"
+                    x:Name="homeButton"
+                    Text="Home"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontSize="34"
+                    CornerRadius="15"
+                    Clicked="homeButton_Clicked"                   
+                    HorizontalOptions="End"/>
+
+                <Label
+                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                    Text=""
+                    VerticalOptions="StartAndExpand"
+                    TextColor="White"
+                    FontSize="24"/>
+
+
+                <Button
+                        Grid.Row="2" Grid.Column="0"
+                        x:Name="clickAndWin"
+                        TextColor="White"
+                        FontSize="32"
+                        BackgroundColor="Red"
+                        Text=""
+                        Clicked="clickAndWin_Clicked"
+                        CornerRadius="15"/>
+                <Button
+                        Grid.Row="2" Grid.Column="1"
+                        x:Name="clickToWin"
+                        TextColor="White"
+                        FontSize="32"
+                        BackgroundColor="Red"
+                        Text=""
+                        Clicked="clickAndWin_Clicked"
+                        CornerRadius="15"/>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

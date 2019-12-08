@@ -35,26 +35,26 @@
                     Grid.Column="0"
                     Grid.ColumnSpan="2"
                     FontSize="24"
-                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    Text="The door to your house slams open and Hector rushes through the door. &quot;Holy shit man I just found a dead body walkin home from the bar. What do we do man?&quot; he screams at you in a panic. As you groggily sit up and process what he says you manage to stammer out &quot;You didn't call the cops first thing? What's wrong with you man? We gotta call em or go down there right now bro&quot; you tell him. Hector still looks bewildered but he agrees and picks up the phone "
                     TextColor="White"
                     VerticalOptions="StartAndExpand" />
 
 
                 <Button
-                    Grid.Row="2"
-                    Grid.Column="0"
+                    x:Name="callPolice"
+                    Grid.Row="2" Grid.Column="0"
                     BackgroundColor="Crimson"
                     CornerRadius="15"
-                    FontSize="36"
-                    Text="peepee"
+                    FontSize="32"
+                    Text="Hector calls 911"
                     TextColor="White" />
                 <Button
-                    Grid.Row="2"
-                    Grid.Column="1"
+                    x:Name="goToPolice"
+                    Grid.Row="2" Grid.Column="1"
                     BackgroundColor="Crimson"
                     CornerRadius="15"
-                    FontSize="36"
-                    Text="poopoo"
+                    FontSize="32"
+                    Text="You convince Hector to go to the station"
                     TextColor="White" />
 
             </Grid>

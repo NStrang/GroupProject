@@ -47,7 +47,7 @@
                     Clicked="BackToHome_Clicked"                    
                     BackgroundColor="Crimson"
                     CornerRadius="15"
-                    FontSize="36"
+                    FontSize="32"
                     Text="Go home and call cops"
                     TextColor="White" />
                 <Button
@@ -57,7 +57,7 @@
                 Text="Head to police station"
                 TextColor="White"
                 BackgroundColor="Crimson"
-                FontSize="34"
+                FontSize="32"
                 CornerRadius="15"/>
 
 
