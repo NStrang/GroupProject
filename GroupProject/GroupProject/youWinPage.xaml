@@ -10,26 +10,25 @@
             <Grid
                 Margin="25"
                 BackgroundColor="Black">
-                <Grid.RowDefinitions >
-                    
-                    <RowDefinition Height="5*"/>
+                <Grid.RowDefinitions >                    
+                    <RowDefinition Height="2*"/>
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions >
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    
                 </Grid.ColumnDefinitions>
 
                
 
                 <Label
-                    Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                    Grid.Row="1"  
                     Text="You did it! You solved the crimes and saved everyone from the horrible wrath of your mentally deranged brother. Thank you for your service!"
                     VerticalOptions="StartAndExpand"
                     TextColor="White"
                     FontSize="30"/>
                 <Button
-                    Grid.Row="0" Grid.Column="1"
+                    Grid.Row="0" 
                     x:Name="winGameButton"
                     Text="Click to Continue!"
                     TextColor="Black"

@@ -33,7 +33,7 @@
 
                 <Label
                     Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
-                    Text=""
+                    Text="You tell Hector to call the police."
                     VerticalOptions="StartAndExpand"
                     TextColor="White"
                     FontSize="24"/>
@@ -45,7 +45,7 @@
                         TextColor="White"
                         FontSize="32"
                         BackgroundColor="Red"
-                        Text=""
+                        Text="Win"
                         Clicked="clickToWin_Clicked"
                         CornerRadius="15"/>
                 <Button
@@ -54,7 +54,7 @@
                         TextColor="White"
                         FontSize="32"
                         BackgroundColor="Red"
-                        Text=""
+                        Text="Win"
                         Clicked="clickToWin_Clicked"
                         CornerRadius="15"/>
 

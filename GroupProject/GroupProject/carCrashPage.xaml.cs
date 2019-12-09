@@ -18,10 +18,7 @@ namespace GroupProject
         public carCrashPage()
         {
             InitializeComponent();
-
-            ISimpleAudioPlayer crashPlayer = Plugin.SimpleAudioPlayer.CrossSimpleAudioPlayer.Current;
-            crashPlayer.Load(GetStreamFromFile("carCrashSound.wav"));
-            crashPlayer.Play();
+            
         }
 
         private void youDied_Clicked(object sender, EventArgs e)

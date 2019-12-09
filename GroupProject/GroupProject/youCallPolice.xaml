@@ -45,7 +45,7 @@
                         TextColor="White"
                         FontSize="32"
                         BackgroundColor="Red"
-                        Text=""
+                        Text="Win"
                         Clicked="clickForWin_Clicked"
                         CornerRadius="15"/>
                 <Button
@@ -54,7 +54,7 @@
                         TextColor="White"
                         FontSize="32"
                         BackgroundColor="Red"
-                        Text=""
+                        Text="Win"
                         Clicked="clickForWin_Clicked"
                         CornerRadius="15"/>
 
