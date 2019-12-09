@@ -45,6 +45,7 @@
                     Grid.Row="2" Grid.Column="0"
                     BackgroundColor="Crimson"
                     CornerRadius="15"
+                    Clicked="callPolice_Clicked"
                     FontSize="32"
                     Text="Hector calls 911"
                     TextColor="White" />
@@ -52,6 +53,7 @@
                     x:Name="goToPolice"
                     Grid.Row="2" Grid.Column="1"
                     BackgroundColor="Crimson"
+                    Clicked="goToPolice_Clicked"
                     CornerRadius="15"
                     FontSize="32"
                     Text="You convince Hector to go to the station"

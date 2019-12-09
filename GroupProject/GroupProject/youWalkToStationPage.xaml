@@ -33,7 +33,7 @@
 
                 <Label
                     Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
-                    Text=""
+                    Text="You determine the best course of action to be to go to the police station and notify them of the body. It would be suspicious for you not to when you were already headed into town anyway. Glancing back over your shoulder at the grotesque sight of your former friend's pallid visage, you trudge along dreading every step you take."
                     VerticalOptions="StartAndExpand"
                     TextColor="White"
                     FontSize="24"/>

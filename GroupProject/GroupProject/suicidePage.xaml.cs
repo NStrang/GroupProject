@@ -17,11 +17,7 @@ namespace GroupProject
             InitializeComponent();
         }
 
-        private void BackToHome_Clicked(object sender, EventArgs e)
-        {
-            
-            
-        }
+        
 
         private void homeButton_Clicked(object sender, EventArgs e)
         {
@@ -30,7 +26,12 @@ namespace GroupProject
 
         private void policeButton_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new youWalkToStationPage());
+        }
 
+        private void callCopsButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new youCallPolice());
         }
     }
 }

@@ -43,12 +43,13 @@
 
 
                 <Button
+                    x:Name="callCopsButton"
                     Grid.Row="2" Grid.Column="0" 
-                    Clicked="BackToHome_Clicked"                    
+                    Clicked="callCopsButton_Clicked"                   
                     BackgroundColor="Crimson"
                     CornerRadius="15"
                     FontSize="32"
-                    Text="Go home and call cops"
+                    Text="Call the cops"
                     TextColor="White" />
                 <Button
                     Grid.Row="2" Grid.Column="1"

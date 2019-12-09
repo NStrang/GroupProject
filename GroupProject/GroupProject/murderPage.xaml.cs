@@ -21,5 +21,15 @@ namespace GroupProject
         {
             Navigation.PushAsync(new startPage());
         }
+
+        private void callPolice_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new hectorCallsPolice());
+        }
+
+        private void goToPolice_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new policeStationPage());
+        }
     }
 }
