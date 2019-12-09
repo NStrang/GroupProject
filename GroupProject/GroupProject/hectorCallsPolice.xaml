@@ -50,7 +50,7 @@
                         CornerRadius="15"/>
                 <Button
                         Grid.Row="2" Grid.Column="1"
-                        x:Name="clickToWin"
+                        x:Name="clickYouWin"
                         TextColor="White"
                         FontSize="32"
                         BackgroundColor="Red"

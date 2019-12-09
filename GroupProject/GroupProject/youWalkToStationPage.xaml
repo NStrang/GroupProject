@@ -45,18 +45,10 @@
                         TextColor="White"
                         FontSize="32"
                         BackgroundColor="Red"
-                        Text=""
+                        Text="You win"
                         Clicked="youWinButton_Clicked"
                         CornerRadius="15"/>
-                <Button
-                        Grid.Row="2" Grid.Column="1"
-                        x:Name="youWinButton"
-                        TextColor="White"
-                        FontSize="32"
-                        BackgroundColor="Red"
-                        Text=""
-                        Clicked="youWinButton_Clicked"
-                        CornerRadius="15"/>
+                
 
             </Grid>
         </ScrollView>

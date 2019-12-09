@@ -60,6 +60,6 @@
 
             </Grid>
         </ScrollView>
-        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>
